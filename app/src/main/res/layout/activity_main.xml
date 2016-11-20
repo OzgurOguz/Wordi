@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ozgur.wordi.MainActivity"
+    android:background="#086f1d">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/wordi"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/wordi" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/wordi"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="AİLE"
+                android:id="@+id/bnAile"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarliks" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="BAĞLAÇLAR"
+                android:id="@+id/bnBaglaclar"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_column="1"
+                android:layout_marginLeft="0dp"
+                android:textStyle="normal|bold"
+                android:textColor="#E51717"
+                android:textSize="13dp"
+                android:background="@drawable/kenarlikm" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="BAŞKENTLER"
+                android:id="@+id/bnBaskentler"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikacikyesik" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="BİTKİLER"
+                android:id="@+id/bnBitkiler"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikgri" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="BURÇLAR"
+                android:id="@+id/bnBurclar"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textSize="14dp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikk" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="COĞRAFİ TERİMLER"
+                android:id="@+id/bnCografiTerimler"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikacikmavi" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="DENİZ HAYVANLARI"
+                android:id="@+id/bnDenizHayvanlari"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikkahve" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="EŞYALAR"
+                android:id="@+id/bnEsyalar"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textSize="13dp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikkoyuyesil" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="EVİN BÖLÜMLERİ"
+                android:id="@+id/bnEvinBolumleri"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikm" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="GİYİM"
+                android:id="@+id/bnGiyim"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textSize="12dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="GEOMETRİK ŞEKİLLER"
+                android:id="@+id/bnGeometrikSekiller"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarliksari" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="HAVA DURUMU"
+                android:id="@+id/bnHavaDurumu"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikturuncu" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="HAYVANLAR"
+                android:id="@+id/bnHayvanlar"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarliks" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="İÇECEKLER"
+                android:id="@+id/bnIcecekler"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textSize="13dp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikacikmavi" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="KİTAP TÜRLERİ"
+                android:id="@+id/bnKitapTurleri"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikacikyesik" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="MESLEKLER"
+                android:id="@+id/bnMeslekler"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textSize="13dp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikgri" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="MİKTAR ZARFLARI"
+                android:id="@+id/bnMiktarZarflari"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikk" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="MİLLİYETLER"
+                android:id="@+id/bnMilliyetler"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="0dp"
+                android:singleLine="false"
+                android:background="@drawable/kenarlikkahve" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="MUTFAK ALETLERİ"
+                android:id="@+id/bnMutfakAletleri"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikkoyuyesil" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="ORGANLAR"
+                android:id="@+id/bnOrganlar"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikm" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="RENKLER"
+                android:id="@+id/bnRenkler"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_column="1"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textSize="12dp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="ÜLKELER"
+                android:id="@+id/bnUlkeler"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarliksari" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="TAŞITLAR"
+                android:id="@+id/bnTasitlar"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_column="1"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textSize="12dp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikgri" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="YER-YÖN ZARFLARI"
+                android:id="@+id/bnYerYonZarflari"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_column="1"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikturuncu" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="YİYECEKLER"
+                android:id="@+id/bnYiyecekler"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarlikmor" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:text="ZAMAN ZARFLARI"
+                android:id="@+id/bnZamanZarflari"
+                android:layout_below="@+id/scroll"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#E51717"
+                android:textStyle="normal|bold"
+                android:background="@drawable/kenarliks" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
